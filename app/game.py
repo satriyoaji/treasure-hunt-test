@@ -70,13 +70,13 @@ class TreasureHunt:
         global isStrictMode
         print("Enjoy your game :)")
         if isStrictMode:
-            print("1. press 'A' or 'w' to up")
-            print("2. press 'B' or 'd' to right")
-            print("3. press 'C' or 's' to down")
+            print("1. press 'A' to up")
+            print("2. press 'B' to right")
+            print("3. press 'C' to down")
         else:
-            print("1. press 'A' or 'w' to up")
-            print("2. press 'B' or 'd' to right")
-            print("3. press 'C' or 's' to down")
+            print("1. press 'w' to up")
+            print("2. press 'd' to right")
+            print("3. press 's' to down")
             print("4. press 'a' to left")
         print("press 'q' for quit from game")
 
