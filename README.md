@@ -1,45 +1,17 @@
-### 2. Running Treasure Hunt App ###
-* Make sure your machine is already installed python 3.7, before running PoC application.
-* Treasure Hunt App no need any library to run, only python 3.7.
+### EVERMOS TREASURE HUNT GAME CLI ###
+#### How to run on command line ####
+* Make sure your machine is already installed python minimum version 3.7, before running PoC application.
 * First, run app:
     ```bash
-    python .\index.py
+    python .\main.py
     ```
-* You will see some option to pick on app :
+* You'll see some option to pick on app, type `y`
     ```bash
-    1 : Print Map
-    2 : Print Map with treasure
-    3 : Print Treasure Position
-    4 : Re-position of Treasure
-    9 : Play Time!
-    0 : Exit
     Option : <choice>
+    1 : Press `A` to up
+    2 : Press `B` to right
+    3 : Press `C` to down
+    Press `q` to quit from game
     ```
-  Choice :
-    ```bash
-    1. to print Treasure Map
-    2. to print Treasure Map (with treasure marking)
-    3. to print Treasure Coordinate
-    4. randomize treasure position and set how much treasure appear on the map
-    9. play the game
-    0. exit from loop
-    ```
-* When you pick choice 9 for playing treasure hunt, app will show :
-    ```bash
-    >> Map <<
-    ######## 
-    #......# 
-    #.###..# 
-    #...#.##
-    #X#....#
-    ########
-    >> Map With Treasure <<
-    ########
-    #....$.#
-    #.###..#
-    #...#.##
-    #X#....#
-    ########
-    Treasure position : [[1, 5]]
-    ```
-* The map and input movement are following Assessment Instruction, so you only can move up, right and down.
+  Then you'll showed a treasure map and current location :
+* The map and input movement are following Assessment Instruction, so you only can move up, right and down. Then you can run or exit the game.
